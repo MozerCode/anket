@@ -1,0 +1,1207 @@
+* {
+    margin: 0px;
+}
+body{
+	background: url(images/Вдохновение.jpg); 
+    background-attachment: fixed;
+}
+
+.container{
+	background-color: white;
+	margin-top: -3%;
+	box-shadow: 0 0 5px 2px black;
+}
+.ValueOfOffer{
+	display: none;
+}
+.alert{
+	display: none;
+}
+
+@media (max-width:992px){
+   .wrap-packman{
+       display:none;
+   }
+   .PlaysList{
+       display:none;
+   }
+   .line{
+       display:none;
+   }
+   	#FindBackground{
+       display:none;
+   }
+   .CatDJimg{
+       display:none;
+    }
+    .fixmenu{
+    	left: -10px;
+    	padding-right: 30px;
+    	width: 300px;
+    }
+    .SnowBrosButtons{
+    	display:none;
+    }
+}
+@media (max-width:450px){
+	.VolIcon{
+    	display:none;
+    }
+	.jp-volume-bar{
+       display:none;
+    }
+    .jp-playlist{
+    	height: 200px;
+    }
+}
+
+@media (max-width:1120px){
+    .wrap{
+       display:none;
+   }
+}
+
+.shapkaHight img{
+	width: 100px;
+	margin-left: calc(50% - 50px);
+	margin-bottom: -10%;
+	border: 5px solid white;
+	margin-top: 4%;
+	margin-bottom: -2.5%;
+	box-shadow: 0 0 3px 1px black;
+}
+.shapkaHight{
+	background-color: #FDF1E5;
+	box-shadow: 0 0 3px 1px black;
+}
+
+#shapka{
+	padding: 5%;
+	/*background: linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("images/bg.jpg"); 
+	box-shadow: 0 0 5px 1px black; 
+	border-radius: 30px;*/
+}
+#music{
+	z-index: 1;
+}
+#jp{
+	background-color: white;
+	width: 30%;
+}
+#infa{
+	background-color: white;
+	color: green;
+	border: 2px solid green;
+	transition: all 0.5s ease;
+}
+#infa:hover{
+	background-color: green;
+	color: white;
+	transition: all 0.5s ease;
+}
+.modal-body{
+	background: linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("images/MoneyBG.jpg");
+  	transition: all 5s ease; 
+}
+#ServiceButton1{
+	border: 2px solid grey;
+	color: grey;
+	background-color: white;
+	transition: all 0.5s ease;
+}
+#ServiceButton1:hover{
+	background-color: grey;
+	color: white;
+	transition: all 0.5s ease; 
+}
+#ServiceButton2{
+	border: 2px solid grey;
+	color: grey;
+	background-color: white;
+	transition: all 0.5s ease;
+}
+#ServiceButton2:hover{
+	background-color: grey;
+	color: white;
+	transition: all 0.5s ease; 
+}
+#ServiceButton3{
+	border: 2px solid grey;
+	color: grey;
+	background-color: white;
+	transition: all 0.5s ease;
+}
+#ServiceButton3:hover{
+	background-color: grey;
+	color: white;
+	transition: all 0.5s ease; 
+}
+#ServiceButton4{
+	border: 2px solid grey;
+	color: grey;
+	background-color: white;
+	transition: all 0.5s ease;
+}
+#ServiceButton4:hover{
+	background-color: grey;
+	color: white;
+	transition: all 0.5s ease; 
+}
+#mainButton{
+	border: 2px solid green;
+	background-color: white;
+	color: green;
+	font-size: 15px;
+	padding: 3%;
+  transition: all 0.5s ease;
+}
+#mainButton:hover{
+	background-color: green;
+	color: white;
+  transition: all 0.5s ease;
+}
+#ShowValu{
+	border: 2px solid #34A8F0;
+	background-color: white;
+	color: #34A8F0;
+	font-size: 15px;
+  transition: all 0.5s ease;
+}
+#ShowValu:hover{
+	background-color: #34A8F0;
+	color: white;
+  transition: all 0.5s ease;
+}
+#HideValu{
+	border: 2px solid #34A8F0;
+	background-color: white;
+	color: #34A8F0;
+	font-size: 15px;
+  transition: all 0.5s ease;
+}
+#HideValu:hover{
+	background-color: #34A8F0;
+	color: white;
+  transition: all 0.5s ease;
+}
+#copy{
+	border: 1px solid brown;
+	color: brown;
+	transition: all 0.5s ease;
+}
+#copy:hover{
+	color: #F0F0F0;
+	background-color: brown;
+	transition: all 0.5s ease;
+}
+#PlayListButtonShow{
+	border: 2px solid #507597;
+	background-color: white;
+	color: #507597;
+	font-size: 15px;
+  transition: all 0.5s ease;
+}
+#PlayListButtonShow:hover{
+	background-color: #507597;
+	color: white;
+  transition: all 0.5s ease;
+}
+#PlayListButtonHide{
+	border: 2px solid #507597;
+	background-color: white;
+	color: #507597;
+	font-size: 15px;
+  transition: all 0.5s ease;
+  display: none;
+}
+#PlayListButtonHide:hover{
+	background-color: #507597;
+	color: white;
+  transition: all 0.5s ease;
+}
+.fixmenu{
+	max-width: 1200px;
+	z-index: 100;
+	padding-right: 0px;
+}
+#footer{
+	background-color: #EDF0F5;
+	padding: 10px;
+}
+.SMILine{
+	margin-left: 46%;
+	width: 54%;
+}
+.SMI{
+	margin: 10px;
+	height: 32px;
+	opacity: 0.8;
+	border-radius: 10px;
+}
+.SMI:hover{
+	cursor: pointer;
+	opacity: 1;
+	box-shadow: 0 0 5px 2px yellow;
+	border-radius: 10px;
+}
+#jp-playlist{
+	overflow: auto;
+}
+#PlayLists{
+	width: 20%; 
+	margin-left: 40%;
+}
+#ShowPlayButton{
+	margin-bottom: 10%;
+	border: 2px solid #1486FF;
+	background-color: white;
+	color: #1486FF;
+	font-size: 15px;
+	padding: 10px;
+	text-align: center;
+  transition: all 0.5s ease;
+}
+#ShowPlayButton:hover{
+	background-color: #1486FF;
+	color: white;
+  transition: all 0.5s ease;
+}
+#HidePlayButton{
+	border: 2px solid #1486FF;
+	background-color: white;
+	color: #1486FF;
+	font-size: 15px;
+	padding: 10px;
+	text-align: center;
+	margin-bottom: 10%;
+  transition: all 0.5s ease;
+}
+#HidePlayButton:hover{
+	background-color: #1486FF;
+	color: white;
+  transition: all 0.5s ease;
+}
+#GalleryButton{
+	margin-bottom: 10%;
+	border: 2px solid #FF5E55;
+	background-color: white;
+	color: #FF5E55;
+	font-size: 15px;
+	padding: 10px;
+	text-align: center;
+  transition: all 0.5s ease;
+  margin-left: 100px;
+  margin-top: -75px;
+}
+#GalleryButton:hover{
+	background-color: #FF5E55;
+	color: white;
+  transition: all 0.5s ease;
+}
+.GamesList{
+	width: 200px;
+	margin: 10%;
+	display: none;
+	border-radius: 10px;
+	border: 1px solid black;
+	background-color: #FFFFA9;
+	padding: 10px;
+	font-weight: 600;
+}
+.moreGames{
+	text-align: center;
+}
+.DopGames{
+	display: none;
+}
+.line{
+	border-top: 1px dashed black;
+	width: 100%;
+	margin-top: -30px; 
+}
+.VolIcon{
+	color: #A7B8C8;
+	margin-left: 80%;
+	margin-top: -20px;
+}
+.dynamicPlayListButtons{
+	color: #CCCCCC;
+	padding-left: 15px;
+	margin-top: -15px;
+	cursor: pointer;
+	display: none;
+}
+.dynamicPlayListButtons:hover{
+	color: #517597;
+}
+
+.jp-playlist{
+	overflow-y: auto;
+	height: 480px;
+}
+#PlayList{
+	display: none;
+}
+#ShowSnowBros{
+	margin-top: 50px;
+	width: 120px;
+	margin-left: calc(50% - 60px);
+	border: 2px solid #605088;
+	background-color: white;
+	color: #605088;
+	font-size: 15px;
+	padding: 10px;
+	text-align: center;
+  transition: all 0.5s ease;
+}
+#ShowSnowBros:hover{
+	background-color: #605088;
+	color: white;
+  transition: all 0.5s ease;
+}
+#HideShowBros{
+	margin-top: 50px;
+	width: 120px;
+	margin-left: calc(50% - 60px);
+	border: 2px solid #605088;
+	background-color: white;
+	color: #605088;
+	font-size: 15px;
+	padding: 10px;
+	text-align: center;
+  transition: all 0.5s ease;
+  display: none;
+}
+#HideShowBros:hover{
+	background-color: #605088;
+	color: white;
+  transition: all 0.5s ease;
+}
+.BestGame{
+	width: 700px;
+	height: 700px;
+	margin-left: calc(50% - 350px);
+}
+#Bros{
+	display: none;
+}
+#AllOrder:hover{
+	border-image: url("библиотеки/images/egor-border.png");
+}
+.HofInstract{
+	text-align: center;
+	padding-top: 5px;
+	font-size: 12px;
+}
+.textIndent50{
+	height: 45px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px dashed black;
+	overflow-y: scroll;
+}
+.InstractFooter{
+	padding-top: 10px; 
+	padding-left: 20px;
+}
+.HofSings{
+	padding-bottom: 10px;
+	padding-left: 10px;
+    font-family: 'Baloo Bhaijaan', cursive;
+    font-size: 18px;
+    text-decoration: underline;
+}
+.audi{
+	position: fixed;
+	width: 340px;
+	height: 320px;
+	top: -700px;
+	left: 10px; 
+	background-color: #eeeee0;
+	border-radius: 20px;
+	box-shadow: 0 0 5px 2px;
+	z-index: 10000001;
+}
+.audi h4{
+	text-align: center;
+	font-family: 'Baloo Tammudu', cursive;
+	font-size: 20px;
+	padding-bottom: 15px;
+	border-bottom: 1px dashed grey;
+	cursor: move;
+}
+
+#MenuButtonInstract{
+	color: grey;
+	left: 20px;
+	top: 15px;
+	cursor: pointer;
+}
+#MenuButtonInstract:hover{
+	color: black;
+}
+#CloseButtonForInstract{
+	color: grey;
+	left: 290px;
+	top: 15px;
+	cursor: pointer;
+}
+#CloseButtonForInstract:hover{
+	color: black;
+}
+.audiHids{
+	position: fixed;
+	top: 350px;
+	left: 10px;
+	padding: 10px;
+	z-index: 1000009;
+	cursor: move;
+}
+.audiOnes{
+	width: 250px;
+	margin-left: 10px;
+}
+.HInHideMusic{
+	width: 200px;
+	margin-left: 20px;
+	text-align: center;
+	border: 1px dashed black;
+	font-size: 20px;
+	padding: 5px;
+	background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.9));
+}
+.audiHid1{
+	height: 300px;
+	width: 320px;
+	border-top: 2px solid red;
+	border-bottom: 2px solid red;
+	background: url(images/Бургер.jpg);
+	border-radius: 20px;
+	box-shadow: 0 0 5px 2px;
+	background-size: cover;
+	display: none;
+}
+.audiHid2{
+	height: 500px;
+	width: 320px;
+	padding-top: 17px;
+	border-top: 2px solid #739298;
+	border-bottom: 2px solid red;
+	background: url(images/Запад.jpg);
+	border-radius: 20px;
+	box-shadow: 0 0 5px 2px;
+	background-size: cover;
+	display: none; 
+}
+.audiHid3{
+	height: 600px;
+	width: 450px;
+	border-top: 2px solid red;
+	border-bottom: 2px solid red;
+	background: linear-gradient(0deg, rgba(255, 105, 105, 0.3), rgba(255, 105, 105, 0.5)), url(images/malboro.png);
+	background-size: cover;
+	box-shadow: 0 0 5px 2px;
+	border-radius: 20px;
+	display: none; 
+}
+.audiOnes3{
+	position: relative;
+	width: 230px;
+	top: 10px;
+	left: 160px;
+	margin: 5px;
+}
+
+.Consol{
+	position: fixed;
+	top: 5px;
+	right: -500px;
+	width: 330px;
+	border: 2px solid grey;
+	box-shadow: 0 0 5px 2px;
+	z-index: 10000009;
+	background-color: grey;
+}
+.ConsolInfo{
+	position: fixed;
+	top: 60px;
+	right: -500px;
+	width: 330px;
+	height: 400px;
+	overflow-y: auto;
+	background: linear-gradient(90deg, rgba(250, 250, 250, 0.95), rgba(238, 67, 37, 0.6)), url(images/Rin.png);
+	background-size: cover;
+	cursor: pointer;
+	color: black;
+	box-shadow: 0 0 5px 2px;
+	z-index: 10000001;
+	border-radius: 20px;
+	border: 1px solid grey;
+}
+.ConsolInfo h4{
+	padding-bottom: 5px;
+	text-align: center;
+	font-family: 'Baloo Tammudu', cursive;
+	font-size: 20px;
+	cursor: move;
+}
+#CloserConsolInfo{
+	color: grey;
+	left: 290px;
+	top: 15px;
+	cursor: pointer;
+}
+#CloserConsolInfo:hover{
+	color: black;
+}
+.ConsolCommandList{
+	padding: 20px;
+}
+
+#searchConsol{
+	cursor: pointer;
+	width: 70px;
+}
+#searchConsol:hover{
+	color: black;
+	background-color: grey;
+}
+#CloserConsol:hover{
+	color: black;
+	background-color: red;
+	cursor: pointer;
+}
+.menu{
+	top: -2000px;
+	margin-left: calc(50% - 960px);
+	max-width: 1920px;
+	width: 100%;
+	max-height: 1080px;
+	height: 100%;
+	margin: auto;
+	text-align: center;
+	background: linear-gradient(0deg, rgba(255, 48, 2, 0.85), rgba(255, 105, 100, 0.999));
+	z-index: 10000010;
+	position: fixed;
+}
+.MenuCloser{
+	position: absolute;
+	top: 30px;
+	right: 40px;
+	font-size: 20px;
+	color: white;
+	cursor: pointer; 
+}
+.MenuCloser:hover{
+	color: black;
+}
+.HofMenu{
+	padding-top: 5%;
+	color: white;
+	font-size: 80px;
+}
+
+
+.activeHidenMusicTable{
+	position: fixed;
+	width: 300px;
+	height: 100px;
+	left: -300px;
+	top: 20px;
+	text-align: center;
+	font-size: 15px;
+	padding-top: 10px;
+	background-color: #ABFF91;
+	border: 2px solid black;
+	font-family: 'Baloo Bhaijaan', cursive;
+}
+.HofactiveHidenMusicTable{
+	font-size: 12px;
+	float: right;
+	padding-right: 5px;
+}
+.NotactiveHidenMusicTable{
+	position: fixed;
+	width: 300px;
+	height: 50px;
+	left: -300px;
+	top: 20px;
+	text-align: center;
+	font-size: 15px;
+	padding-top: 10px;
+	background-color: #FF9582;
+	border: 2px solid black;
+	font-family: 'Baloo Bhaijaan', cursive;
+}
+/*-----------------Sticker-blue----------------------*/
+.wrap{
+	width: 50px; 
+	margin:auto;  
+	z-index:100; 
+	margin-right: -5%;
+}
+.sticker{
+  width:200px;
+  height:200px;
+  position:absolute;
+  background: url(https://dl.dropbox.com/u/1143870/i/sticker.png) top center no-repeat; 
+  animation: spin 10s linear infinite;
+  /*Set our animation play state to paused initially */
+  animation-play-state: paused;
+  padding: 100px; 
+}
+.msg{
+	position:absolute;
+	margin: 40px;
+	animation-play-state: paused; 
+}
+.msg:hover {
+  /* Toggle our animation play state to running when we are hovering over our sticker */
+  animation-play-state: running;
+}
+.sticker:hover {
+  /* Toggle our animation play state to running when we are hovering over our sticker */
+  animation-play-state: running;
+  cursor: pointer;
+}
+
+
+@keyframes spin {
+  100% {transform: rotate(1turn); }
+}
+
+
+
+/*--------------------------Sticker-----------------*/
+.anim750{
+  transition: all 750ms ease-in-out;
+}
+
+#Awesome{
+	position: relative;
+	width: 180px;
+	height: 180px;
+	margin: 0 auto;
+  
+  backface-visibility: hidden;
+}
+
+#Awesome .sticky{
+	transform: rotate(45deg);
+}
+
+#Awesome:hover .sticky{
+	transform: rotate(10deg);
+	cursor: progress;
+}
+
+#Awesome .sticky{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width:180px;
+	height: 180px;
+}
+
+#Awesome .reveal .circle{
+	box-shadow: 0 1px 0px rgba(0,0,0,.15);
+  
+  font-family: 'helvetica neue', arial;
+  font-weight: 200;
+  line-height: 140px;
+  text-align: center;
+  
+  cursor: pointer;
+}
+
+#Awesome .reveal .circle{
+	background: #fafafa;
+}
+
+#Awesome .circle_wrapper{
+	position: absolute;
+	width: 180px;
+	height: 180px;
+	left: 0px;
+	top: 0px;
+	overflow: hidden;
+}
+
+#Awesome .circle{
+	position: absolute;
+	width: 140px;
+	height:  140px;
+	margin: 20px;
+	
+	border-radius: 999px;
+}
+
+#Awesome .back{
+	height: 10px;
+	top: 30px;
+}
+
+#Awesome:hover .back{
+	height: 90px;
+	top: 110px;
+}
+
+#Awesome .back .circle{
+	margin-top: -130px;
+	background-color: #fbec3f;
+
+	background-image: -webkit-linear-gradient(bottom, rgba(251,236,63,.0), rgba(255,255,255,.8));
+}
+
+#Awesome:hover .back .circle{
+	margin-top: -50px;
+}
+
+#Awesome .front{
+	height: 150px;
+	bottom: 0;
+	top: auto;
+	
+	-webkit-box-shadow: 0 -140px 20px -140px rgba(0,0,0,.3);
+}
+
+#Awesome:hover .front{
+	height: 70px;
+	
+	-webkit-box-shadow: 0 -60px 10px -60px rgba(0,0,0,.1);
+}
+
+#Awesome .front .circle{
+	margin-top: -10px;
+	background: #fbec3f;
+
+	background-image: -webkit-linear-gradient(bottom, rgba(251,236,63,.0) 75%, #f7bb37 95%);
+  background-image: -moz-linear-gradient(bottom, rgba(251,236,63,.0) 75%, #f7bb37 95%);
+  background-image: linear-gradient(bottom, rgba(251,236,63,.0) 75%, #f7bb37 95%);
+}
+
+#Awesome h4{
+  font-family: 'helvetica neue', arial;
+  font-weight: 200;
+  text-align: center;
+	position: absolute;
+	width: 180px;
+	height: 140px;
+  line-height: 140px;
+	
+	transition: opacity 50ms linear 400ms;
+}
+
+#Awesome:hover h4{
+	opacity: 0;
+	
+	transition: opacity 50ms linear 300ms;
+}
+
+#Awesome:hover .front .circle{
+	margin-top: -90px;
+	background-color: #e2d439;
+	background-position: 0 100px;
+}
+/*******************************************************************/
+
+
+/*--------------PRELOAD---------------*/
+.preloader__text{
+  position: absolute;
+  top: 62%;
+  left: 50%;
+  margin-left: -90px;
+  text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.SendClock{
+  height: 30px;
+}
+.points{
+  height: 4px;
+}
+
+#playCatImg{
+	display: none;
+}
+.CatDJimg{
+	display: none;
+}
+
+
+/*-------------РАКЕТА---------------*/
+#ball{
+  width:                300px;
+  height:               300px;  
+  left:                 0px;
+  top:                  0px;
+  background-image: url("https://m1.behance.net/rendition/modules/100887987/disp/c845b52e70de95a5b73b23f254ef1d29.gif");
+
+  -moz-border-radius:    50%;
+  -webkit-border-radius: 50%;
+  -o-border-radius:      50%;
+  -ms-border-radius:     50%;
+}
+
+
+/**--------------------ЛЕТАЮЩИЙ КОТ-------------------*/
+
+#hellopreloader {
+  background: linear-gradient(217deg, #d8eff9, #a2dcee, #b8dfff);
+  background-size: 600% 600%;
+  -webkit-animation: Gradient 20s ease infinite;
+  -moz-animation: Gradient 20s ease infinite;
+  animation: Gradient 20s ease infinite;
+}
+  
+    
+    @-webkit-keyframes Gradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+  }
+  @-moz-keyframes Gradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+  }
+  @keyframes Gradient { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+
+
+/* --------------------------
+  Keyframes
+--------------------------- */
+
+@-webkit-keyframes move {
+ from {-webkit-transform: translateX(-400px);
+  opacity: .3);}
+ to {-webkit-transform: translateX(1350px);}
+}
+
+@keyframes planeing {
+  0% { transform: translate(0px, 0px); }
+  50% { transform: translate(0px, 32px); }
+  100% { transform: translate(0px, 0px); }
+}
+
+@keyframes catting {
+  0% { transform: translate(0px, 0px); }
+  50% { transform: translate(0px, 22px);}
+  100% { transform: translate(0px, 0px); }
+}
+
+@keyframes shrink {
+  0% { transform: none;}
+  50% { transform: scale(1,1.2); }
+  100% {transform: none; }
+}
+
+@keyframes hair {
+  0% { transform: none;}
+  50% { transform: scale(1,.8); }
+  100% {transform: none; }
+}
+
+
+/* --------------------------
+  Animation Styles
+--------------------------- */
+
+
+.flyingcat{
+  width: 75%;
+    margin: 0 auto;
+    margin-top: -90px;
+    display: block;
+    overflow: visible;
+}
+
+.cloud {
+  animation: move 12s infinite ;
+    transform: scale(0.9);
+}
+
+.cloud2 {
+  animation: move 10s infinite;
+}
+
+.cloud3{
+  fill:#EAF7F9;
+   animation: move 18s infinite;
+   transform: scale(0.7);
+}
+
+.cloud4{
+  fill:#EAF7F9;
+   animation: move 18s infinite;
+   transform: scale(0.7);
+}
+
+.plane {
+  animation: planeing 2s infinite ;
+}
+
+.catting {
+  animation: catting 2s infinite ;
+}
+
+#whisker{
+  animation: hair 1.4s infinite;
+  transform-origin: 50% 50%;}
+
+.propeller{fill:#D0F4FC;
+  animation: shrink .1s infinite;
+  transform-origin: 50% 50%;}
+
+/* --------------------------
+  Morph Styles
+--------------------------- */
+
+
+.scarf2 {
+  visibility: hidden;
+}
+
+.eye2{
+  visibility: hidden;
+}
+
+
+/* --------------------------
+  SVG Styles
+--------------------------- */
+
+
+.st0{
+  fill:#EAF7F9;
+}
+
+.st1{
+  fill:#BFBFBF;
+}
+
+.st2{
+  fill:#514C4C;
+}
+
+.st3{
+  fill:none;
+  stroke:#514C4C;
+  stroke-width:1.7908;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-miterlimit:10;
+}
+
+.st4{
+  fill:none;
+  stroke:#54504C;
+  stroke-width:2.1269;
+  stroke-linecap:round;
+  stroke-miterlimit:10;
+}
+
+.st5{
+  fill:#E8D8C4;
+  stroke:#54504C;
+  stroke-width:3.1203;
+  stroke-miterlimit:10;
+}
+
+.st6{
+  fill:none;
+  stroke:#514C4C;
+  stroke-width:1.551;
+  stroke-linecap:round;
+  stroke-linejoin:bevel;
+  stroke-miterlimit:10;
+}
+
+.st7{
+  fill:#1BADDA;
+}
+
+.st8{
+  fill:#27BADD;
+}
+
+.st9{
+  fill:#1494B2;
+}
+    
+
+.st11{
+  fill:#EE1D46;
+}
+
+  
+.st12{
+  fill:#ED2147 ;
+
+}
+  
+.st13{
+  fill:#514C4C;
+}
+
+.eye3{
+  visibility: hidden;
+}
+
+
+
+
+
+/*-----------------МОНСТРИК--------------------------*/
+svg { 
+  width: 100%;
+  height: 100%; 
+}
+
+
+.wrapper {
+	background-color: blue;
+	width: 960px;
+ 	height: 80%;
+ 	padding: 20px;
+	margin: 20px auto;
+	position: relative; 
+}
+
+/*PACKMAN*/
+
+.wrap-packman .svg-packman { 
+  width: 300px; 
+  display: inline-block; 
+  vertical-align: top; 
+  box-sizing: border-box; 
+  padding: 20px;
+  position: relative;
+
+  animation:packglide 10s infinite;
+  animation-timing-function: ease-in-out;
+
+  -webkit-animation:packglide 10s infinite;
+  -webkit-animation-timing-function: ease-in-out;  
+}
+
+.svg-packman .shade {
+	fill: hsl(4,66%,53%);
+	animation: shadeglow 6s ease-in-out 0 infinite alternate;
+	-webkit-animation: shadeglow 6s ease-in-out 0 infinite alternate;
+}
+
+.svg-packman .body {
+	fill: hsl(4, 66%, 59%);
+	animation: glow 6s ease-in-out 0 infinite alternate;
+	-webkit-animation: glow 6s ease-in-out 0 infinite alternate;
+}
+
+
+.svg-packman .eyewhite {
+	fill: hsl(4, 0%, 100%);
+}
+
+.svg-packman .eye {
+	fill: hsl(200, 45%, 30%);
+
+	-webkit-animation-name: blink;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-iteration-count: infinite; 
+	-webkit-transform-origin:50% 50%;
+
+	animation-name: blink;
+	animation-duration: 5s;
+	animation-iteration-count: infinite; 
+}
+
+
+/*PACKMAN ANIMATION*/
+
+@keyframes packglide {
+0%   {top:0px; left:0px; }
+25%  {top:0px; left:300px; }
+50%  {top:300px; left:300px; }
+75%  {top:300px; left:0px; }
+100% {top:0px; left:0px; }
+}
+
+@-webkit-keyframes packglide /* Safari and Chrome */
+{
+0%   {top:0px; left:0px; }
+25%  {top:0px; left:300px; }
+50%  {top:300px; left:300px; }
+75%  {top:300px; left:0px; }
+100% {top:0px; left:0px; }
+}
+
+
+@keyframes glow {
+	0% {fill: hsl(4, 66%, 59%);}
+	25% {fill: hsl(319, 50%, 50%);}
+	50% {fill: hsl(217, 50%, 50%);}
+	75% {fill: hsl(20, 60%, 54%);}
+	100% {fill: hsl(4, 66%, 59%);}
+}
+
+@-webkit-keyframes glow {
+	0% {fill: hsl(4, 66%, 59%);}
+	25% {fill: hsl(319, 50%, 50%);}
+	50% {fill: hsl(217, 50%, 50%);}
+	75% {fill: hsl(20, 60%, 54%);}
+	100% {fill: hsl(4, 66%, 59%);}
+}
+
+
+@keyframes shadeglow {
+	0% {fill: hsl(4, 66%, 49%);}
+	25% {fill: hsl(319, 50%, 40%);}
+	50% {fill: hsl(217, 50%, 40%);}
+	75% {fill: hsl(20, 60%, 44%);}
+	100% {fill: hsl(4, 66%, 49%);}
+}
+
+@-webkit-keyframes shadeglow {
+	0% {fill: hsl(4, 66%, 49%);}
+	25% {fill: hsl(319, 50%, 40%);}
+	50% {fill: hsl(217, 50%, 40%);}
+	75% {fill: hsl(20, 60%, 44%);}
+	100% {fill: hsl(4, 66%, 49%);}
+}
+
+@-webkit-keyframes blink { 
+	0% { -webkit-transform: scaleX(1) scaleY(1); } 
+	1% { -webkit-transform: scaleX(1.1) scaleY(0.1); } 
+	2% { -webkit-transform: scaleX(1) scaleY(1); }
+	24% { -webkit-transform: scaleX(1) scaleY(1); }
+	25% { -webkit-transform: scaleX(1.1) scaleY(0.1); } 
+	26% { -webkit-transform: scaleX(1) scaleY(1); }
+	50% { -webkit-transform: scaleX(1) scaleY(1); }
+	74% { -webkit-transform: scaleX(1) scaleY(1); }
+	75% { -webkit-transform: scaleX(1.1) scaleY(0.1); } 
+	76% { -webkit-transform: scaleX(1) scaleY(1); }
+	100% { -webkit-transform: scaleX(1) scaleY(1);} 
+}
+
+@-keyframes blink { 
+	0% { -webkit-transform: scaleX(1) scaleY(1); } 
+	1% { -webkit-transform: scaleX(1.1) scaleY(0.1); } 
+	2% { -webkit-transform: scaleX(1) scaleY(1); }
+	24% { -webkit-transform: scaleX(1) scaleY(1); }
+	25% { -webkit-transform: scaleX(1.1) scaleY(0.1); } 
+	26% { -webkit-transform: scaleX(1) scaleY(1); }
+	50% { -webkit-transform: scaleX(1) scaleY(1); }
+	74% { -webkit-transform: scaleX(1) scaleY(1); }
+	75% { -webkit-transform: scaleX(1.1) scaleY(0.1); } 
+	76% { -webkit-transform: scaleX(1) scaleY(1); }
+	100% { -webkit-transform: scaleX(1) scaleY(1);} 
+}
+
+
+

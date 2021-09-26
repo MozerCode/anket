@@ -1,0 +1,210 @@
+
+body {
+  background: linear-gradient(217deg, #d8eff9, #a2dcee, #b8dfff);
+  background-size: 600% 600%;
+  -webkit-animation: Gradient 20s ease infinite;
+  -moz-animation: Gradient 20s ease infinite;
+  animation: Gradient 20s ease infinite;
+}
+  
+    
+    @-webkit-keyframes Gradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+  }
+  @-moz-keyframes Gradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+  }
+  @keyframes Gradient { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+
+
+/* --------------------------
+  Keyframes
+--------------------------- */
+
+@-webkit-keyframes move {
+ from {-webkit-transform: translateX(-400px);
+  opacity: .3);}
+ to {-webkit-transform: translateX(1350px);}
+}
+
+@keyframes planeing {
+  0% { transform: translate(0px, 0px); }
+  50% { transform: translate(0px, 32px); }
+  100% { transform: translate(0px, 0px); }
+}
+
+@keyframes catting {
+  0% { transform: translate(0px, 0px); }
+  50% { transform: translate(0px, 22px);}
+  100% { transform: translate(0px, 0px); }
+}
+
+@keyframes shrink {
+  0% { transform: none;}
+  50% { transform: scale(1,1.2); }
+  100% {transform: none; }
+}
+
+@keyframes hair {
+  0% { transform: none;}
+  50% { transform: scale(1,.8); }
+  100% {transform: none; }
+}
+
+
+/* --------------------------
+  Animation Styles
+--------------------------- */
+
+
+.flyingcat{
+  width: 75%;
+    margin: 0 auto;
+    margin-top: -90px;
+    display: block;
+    overflow: visible;
+}
+
+.cloud {
+  animation: move 12s infinite ;
+    transform: scale(0.9);
+}
+
+.cloud2 {
+  animation: move 10s infinite;
+}
+
+.cloud3{
+  fill:#EAF7F9;
+   animation: move 18s infinite;
+   transform: scale(0.7);
+}
+
+.cloud4{
+  fill:#EAF7F9;
+   animation: move 18s infinite;
+   transform: scale(0.7);
+}
+
+.plane {
+  animation: planeing 2s infinite ;
+}
+
+.catting {
+  animation: catting 2s infinite ;
+}
+
+#whisker{
+  animation: hair 1.4s infinite;
+  transform-origin: 50% 50%;}
+
+.propeller{fill:#D0F4FC;
+  animation: shrink .1s infinite;
+  transform-origin: 50% 50%;}
+
+/* --------------------------
+  Morph Styles
+--------------------------- */
+
+
+.scarf2 {
+  visibility: hidden;
+}
+
+.eye2{
+  visibility: hidden;
+}
+
+
+/* --------------------------
+  SVG Styles
+--------------------------- */
+
+
+.st0{
+  fill:#EAF7F9;
+}
+
+.st1{
+  fill:#BFBFBF;
+}
+
+.st2{
+  fill:#514C4C;
+}
+
+.st3{
+  fill:none;
+  stroke:#514C4C;
+  stroke-width:1.7908;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-miterlimit:10;
+}
+
+.st4{
+  fill:none;
+  stroke:#54504C;
+  stroke-width:2.1269;
+  stroke-linecap:round;
+  stroke-miterlimit:10;
+}
+
+.st5{
+  fill:#E8D8C4;
+  stroke:#54504C;
+  stroke-width:3.1203;
+  stroke-miterlimit:10;
+}
+
+.st6{
+  fill:none;
+  stroke:#514C4C;
+  stroke-width:1.551;
+  stroke-linecap:round;
+  stroke-linejoin:bevel;
+  stroke-miterlimit:10;
+}
+
+.st7{
+  fill:#1BADDA;
+}
+
+.st8{
+  fill:#27BADD;
+}
+
+.st9{
+  fill:#1494B2;
+}
+    
+
+.st11{
+  fill:#EE1D46;
+}
+
+  
+.st12{
+  fill:#ED2147 ;
+
+}
+
+  
+.st13{
+  fill:#514C4C;
+}
+
+
+
+.eye3{
+  visibility: hidden;
+}

@@ -1,0 +1,219 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Галерея</title>
+
+  	<link rel="SHORTCUT ICON" href="Библиотеки/img/Instagram-icon.png" type="png">
+
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  	<script type="text/javascript" src="Библиотеки/fancybox/jquery.fancybox-1.3.4.js"></script>
+  	<script type="text/javascript" src="Библиотеки/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+  	<script type="text/javascript" src="Библиотеки/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+
+ 	<link href="Библиотеки/scroll.css" rel="stylesheet">
+ 	<link href="Библиотеки/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+ 	<link rel="stylesheet" href="https://anijs.github.io/lib/anicollection/anicollection.css">
+ 	<link rel="stylesheet" type="text/css" href="Библиотеки/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+ 	
+ 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+	<script>
+		!window.jQuery && document.write('<script src="jquery-1.4.3.min.js"><\/script>');
+	</script>
+	<script type="text/javascript" src="./fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script type="text/javascript" src="./fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="./fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(".open").fancybox({
+				'openEffect' : 'none',
+				'closeEffect' : 'none',
+				'titlePosition' 	: 'over',
+				'overlayOpacity'	: 0.9,
+				'overlayColor'		: '#000',
+
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over">Изображение ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+
+
+			$("a[rel=group]").fancybox({
+				'openEffect' : 'none',
+				'closeEffect' : 'none',
+				'titlePosition' 	: 'over',
+				'overlayOpacity'	: 0.9,
+				'overlayColor'		: '#000',
+
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over">Изображение ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+		});
+	</script>
+
+ </head>
+ <body>
+    
+ 	 <div class="preview">	
+ 		<h3 class="MainText" data-anijs="if: scroll, on: window, do: zoomIn animated, to: .MainText"><b> Галерея</h3>
+ 	  </div>
+
+ 	 <div class="text">
+	  <span class="we">Мы </span>
+	  <span>
+	    <span class="word wisteria">.</span>
+	    <span class="word belize">wonderful.</span>
+	    <span class="word pomegranate">fancy.</span>
+	    <span class="word green">beautiful.</span>
+	    <span class="word midnight">.</span>
+	    <span class="word one">дружные.</span>
+	  </span >
+	</div> 	
+
+ 	  		<img class="planets" src="Библиотеки/img/planets.png" data-anijs="if: load, on: window, do: rollIn animated, to: .planets">
+
+
+ 			<div id="scrolldown">
+			  <p>Листай<br><span class="glyphicon glyphicon-chevron-down"></span></p>
+			</div>
+
+ 	<div class="main">
+
+	<div class="row">
+	  <div class="row1">
+	<!--Блок 1-->
+		  <a class="open" rel="group" href="Библиотеки/img/MoneyBG.jpg">
+		  	<div id="block1_1" class="col-xs-5 col-sm-5 col-md-3 col-lg-3" data-anijs="if: scroll, on: window, do: rollIn animated, to: #block1_1, after: $fireOnce">
+		  		<span class="glyphicon glyphicon-search" id="icon1" data-toggle="tooltip" title="Увеличить"></span>
+		  		<img src="Библиотеки/img/MoneyBG.jpg">
+		  	</div></a>
+	<!--======-->
+
+	<!--Блок 2-->
+		<a class="open" rel="group" href="Библиотеки/img/Двойной.jpg">
+		  <div id="block1_2" class="col-xs-5 col-sm-5 col-md-3 col-lg-3" data-anijs="if: scroll, on: window, do: bounceIn animated, to: #block1_2, after: $fireOnce">
+		  	<span class="glyphicon glyphicon-search" id="icon2" data-toggle="tooltip" title="Увеличить"></span>
+		  	<img src="Библиотеки/img/Двойной.jpg">
+		  </div>
+		<a> 
+	<!--======-->
+
+	<!--Блок 3-->
+		<a class="open" rel="group" href="Библиотеки/img/Олени.jpg" target="_blank">	  
+		  <div id="block1_3" class="col-xs-5 col-sm-5 col-md-3 col-lg-3" data-anijs="if: scroll, on: window, do: bounceIn animated, to: #block1_3, after: $fireOnce">
+		  	<span class="glyphicon glyphicon-search" id="icon3" data-toggle="tooltip" title="Увеличить"></span>
+		  	<img src="Библиотеки/img/Олени.jpg">
+		  </div>
+		</a> 
+	<!--======-->
+
+	<!--Блок 4-->
+		<a class="open" rel="group" href="Библиотеки/img/Совы.jpg" target="_blank">	 
+		  <div id="block1_4" class="col-xs-5 col-sm-5 col-md-3 col-lg-3" data-anijs="if: scroll, on: window, do: rollIn animated, to: #block1_4, after: $fireOnce">
+		  	<span class="glyphicon glyphicon-search" id="icon4" data-toggle="tooltip" title="Увеличить"></span>
+		  	<img src="Библиотеки/img/Совы.jpg">
+		  </div>
+		</a>  
+	<!--======-->
+
+	<!--Блок 5-->
+		<a class="open" rel="group" href="Библиотеки/img/Учеба.jpg" target="_blank">	  
+		  <div id="block1_5" class="col-xs-5 col-sm-5 col-md-3 col-lg-3" data-anijs="if: scroll, on: window, do: rollIn animated, to: #block1_5, after: $fireOnce">
+		  	<span class="glyphicon glyphicon-search" id="icon5" data-toggle="tooltip" title="Увеличить"></span>
+		  	<img src="Библиотеки/img/Учеба.jpg">
+		  </div>
+		</a> 
+	<!--======-->
+
+		<!--Блок 6-->
+		<a class="open" rel="group" href="Библиотеки/img/Животные.jpg" target="_blank">	  
+		  <div id="block1_6" class="col-xs-5 col-sm-5 col-md-3 col-lg-3" data-anijs="if: scroll, on: window, do: zoomIn animated, to: #block1_6, after: $fireOnce">
+		  	<span class="glyphicon glyphicon-search" id="icon6" data-toggle="tooltip" title="Увеличить"></span>
+		  	<img src="Библиотеки/img/Животные.jpg">
+		  </div>
+		</a> 
+	<!--======-->
+
+	<!--Блок 7-->
+		<a class="open" rel="group" href="Библиотеки/img/На_отдыхе.jpg" target="_blank">	  
+		  <div id="block1_7" class="col-xs-5 col-sm-5 col-md-3 col-lg-3" data-anijs="if: scroll, on: window, do:  zoomIn animated, to: #block1_7, after: $fireOnce">
+		  	<span class="glyphicon glyphicon-search" id="icon7" data-toggle="tooltip" title="Увеличить"></span>
+		  	<img src="Библиотеки/img/На_отдыхе.jpg">
+		  </div>
+		</a> 
+	<!--======-->
+
+	<!--Блок 8-->
+		<a class="open" rel="group" href="Библиотеки/img/Мозаика.jpg" target="_blank">	  
+		  <div id="block1_8" class="col-xs-5 col-sm-5 col-md-3 col-lg-3" data-anijs="if: scroll, on: window, do: rollIn animated, to: #block1_8, after: $fireOnce">
+		  	<span class="glyphicon glyphicon-search" id="icon8" data-toggle="tooltip" title="Увеличить"></span>
+		  	<img src="Библиотеки/img/Мозаика.jpg">
+		  </div>
+		</a> 
+	<!--======-->
+
+	<!--Блок 9-->
+		<a class="open" rel="group" href="Библиотеки/img/Морской_2.jpg" target="_blank">	  
+		  <div id="block1_9" class="col-xs-5 col-sm-5 col-md-3 col-lg-3" data-anijs="if: scroll, on: window, do: rotateIn animated, to: #block1_9, after: $fireOnce">
+		  	<span class="glyphicon glyphicon-search" id="icon9" data-toggle="tooltip" title="Увеличить"></span>
+		  	<img src="Библиотеки/img/Морской_2.jpg">
+		  </div>
+		</a> 
+	<!--======-->
+
+	<!--Блок 10-->
+		<a class="open" rel="group" href="Библиотеки/img/Арбуз.jpg" target="_blank">	  
+		  <div id="block1_10" class="col-xs-5 col-sm-5 col-md-3 col-lg-3" data-anijs="if: scroll, on: window, do: rotateIn animated, to: #block1_10, after: $fireOnce">
+		  	<span class="glyphicon glyphicon-search" id="icon10" data-toggle="tooltip" title="Увеличить"></span>
+		  	<img src="Библиотеки/img/Арбуз.jpg">
+		  </div>
+		</a> 
+	<!--======-->
+
+	<!--Блок 11-->
+		<a class="open" rel="group" href="Библиотеки/img/Корабли.jpg" target="_blank">	  
+		  <div id="block1_11" class="col-xs-5 col-sm-5 col-md-3 col-lg-3" data-anijs="if: scroll, on: window, do: rotateIn animated, to: #block1_11, after: $fireOnce">
+		  	<span class="glyphicon glyphicon-search" id="icon11" data-toggle="tooltip" title="Увеличить"></span>
+		  	<img src="Библиотеки/img/Корабли.jpg">
+		  </div>
+		</a> 
+	<!--======-->
+
+	<!--Блок 12-->
+		<a class="open" rel="group" href="Библиотеки/img/Медицина.jpg" target="_blank">	  
+		  <div id="block1_12" class="col-xs-5 col-sm-5 col-md-3 col-lg-3" data-anijs="if: scroll, on: window, do: rotateIn animated, to: #block1_12, after: $fireOnce">
+		  	<span class="glyphicon glyphicon-search" id="icon12" data-toggle="tooltip" title="Увеличить"></span>
+		  	<img src="Библиотеки/img/Медицина.jpg">
+		  </div>
+		</a> 
+	<!--======-->
+
+
+
+
+		</div>
+	  </div>
+	</div>
+
+
+	<div class="SocialInfo" data-anijs="if: scroll, on: window, do: rollIn animated, to: .SocialInfo">
+		<a href="https://vk.com/id152949579" target="_blank"><img src="Библиотеки/img/Вк.png"></a>
+		<a href="https://vk.com/id152949579" target="_blank"><img src="Библиотеки/img/instagram.png"></a>
+	</div>
+
+
+	<div class="footer" data-anijs="if: scroll, on: window, do: zoomIn animated, to: .footer">
+		<span>Made by <a href="https://vk.com/id152949579" target="_blank">mozer_nd</a></span>
+	</div>
+
+	
+	<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+  	<script src="Библиотеки/scroll.js"></script>
+  	<script src="Библиотеки/bootstrap/js/bootstrap.min.js"></script>
+  	<script src="https://anijs.github.io/lib/anijs/anijs-min.js"></script>
+  	<script src="https://anijs.github.io/lib/anijs/helpers/dom/anijs-helper-dom-min.js"></script>
+
+
+ </body>
+</html>

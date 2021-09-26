@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink" width="148" height="148">
+  <image x="0" y="0" width="148" height="148" xlink:href="я1.png">
+    <animate attributeType="CSS" attributeName="opacity" dur="1.25s"
+    values="1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0"
+    calcMode="discrete" repeatCount="indefinite" />
+  </image>
+<image x="0" y="0" width="148" height="148" xlink:href="я2.png">
+    <animate attributeType="CSS" attributeName="opacity" dur="1.25s"
+    values="0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0"
+    calcMode="discrete" repeatCount="indefinite" />
+  </image>
+<image x="0" y="0" width="148" height="148" xlink:href="я3.png">
+    <animate attributeType="CSS" attributeName="opacity" dur="1.25s"
+    values="0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0"
+    calcMode="discrete" repeatCount="indefinite" />
+  </image>
+<image x="0" y="0" width="148" height="148" xlink:href="я4.png">
+    <animate attributeType="CSS" attributeName="opacity" dur="1.25s"
+    values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0"
+    calcMode="discrete" repeatCount="indefinite" />
+  </image>
+<image x="0" y="0" width="148" height="148" xlink:href="я5.png">
+    <animate attributeType="CSS" attributeName="opacity" dur="1.25s"
+    values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1"
+    calcMode="discrete" repeatCount="indefinite" />
+  </image>
+ <image x="0" y="0" width="148" height="148" xlink:href="я6.png">
+    <animate attributeType="CSS" attributeName="opacity" dur="1.25s"
+    values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1"
+    calcMode="discrete" repeatCount="indefinite" />
+  </image>
+ <image x="0" y="0" width="148" height="148" xlink:href="я7.png">
+    <animate attributeType="CSS" attributeName="opacity" dur="1.25s"
+    values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1"
+    calcMode="discrete" repeatCount="indefinite" />
+  </image>
+ <image x="0" y="0" width="148" height="148" xlink:href="я8.png">
+    <animate attributeType="CSS" attributeName="opacity" dur="1.25s"
+    values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1"
+    calcMode="discrete" repeatCount="indefinite" />
+  </image>
+ <image x="0" y="0" width="148" height="148" xlink:href="я9.png">
+    <animate attributeType="CSS" attributeName="opacity" dur="1.25s"
+    values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1"
+    calcMode="discrete" repeatCount="indefinite" />
+  </image>
+  <image x="0" y="0" width="148" height="148" xlink:href="я10.png">
+    <animate attributeType="CSS" attributeName="opacity" dur="1.25s"
+    values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1"
+    calcMode="discrete" repeatCount="indefinite" />
+  </image>
+  <image x="0" y="0" width="148" height="148" xlink:href="я11.png">
+    <animate attributeType="CSS" attributeName="opacity" dur="1.25s"
+    values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1"
+    calcMode="discrete" repeatCount="indefinite" />
+  </image>
+  <image x="0" y="0" width="148" height="148" xlink:href="я12.png">
+    <animate attributeType="CSS" attributeName="opacity" dur="1.25s"
+    values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1"
+    calcMode="discrete" repeatCount="indefinite" />
+  </image>
+  <image x="0" y="0" width="148" height="148" xlink:href="я13.png">
+    <animate attributeType="CSS" attributeName="opacity" dur="1.25s"
+    values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1"
+    calcMode="discrete" repeatCount="indefinite" />
+  </image>
+  <image x="0" y="0" width="148" height="148" xlink:href="я14.png">
+    <animate attributeType="CSS" attributeName="opacity" dur="1.25s"
+    values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1"
+    calcMode="discrete" repeatCount="indefinite" />
+  </image>
+  <image x="0" y="0" width="148" height="148" xlink:href="я15.png">
+    <animate attributeType="CSS" attributeName="opacity" dur="1.25s"
+    values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1"
+    calcMode="discrete" repeatCount="indefinite" />
+  </image>
+  <image x="0" y="0" width="148" height="148" xlink:href="я16.png">
+    <animate attributeType="CSS" attributeName="opacity" dur="1.25s"
+    values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1"
+    calcMode="discrete" repeatCount="indefinite" />
+  </image>
+    <image x="0" y="0" width="148" height="148" xlink:href="я17.png">
+    <animate attributeType="CSS" attributeName="opacity" dur="1.25s"
+    values="1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0"
+    calcMode="discrete" repeatCount="indefinite" />
+  </image>
+<image x="0" y="0" width="148" height="148" xlink:href="я18.png">
+    <animate attributeType="CSS" attributeName="opacity" dur="1.25s"
+    values="0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0"
+    calcMode="discrete" repeatCount="indefinite" />
+  </image>
+<image x="0" y="0" width="148" height="148" xlink:href="я19.png">
+    <animate attributeType="CSS" attributeName="opacity" dur="1.25s"
+    values="0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0"
+    calcMode="discrete" repeatCount="indefinite" />
+  </image>
+<image x="0" y="0" width="148" height="148" xlink:href="я20.png">
+    <animate attributeType="CSS" attributeName="opacity" dur="1.25s"
+    values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0"
+    calcMode="discrete" repeatCount="indefinite" />
+  </image>
+<image x="0" y="0" width="148" height="148" xlink:href="я21.png">
+    <animate attributeType="CSS" attributeName="opacity" dur="1.25s"
+    values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1"
+    calcMode="discrete" repeatCount="indefinite" />
+  </image>
+ <image x="0" y="0" width="148" height="148" xlink:href="я22.png">
+    <animate attributeType="CSS" attributeName="opacity" dur="1.25s"
+    values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1"
+    calcMode="discrete" repeatCount="indefinite" />
+  </image>
+ <image x="0" y="0" width="148" height="148" xlink:href="я23.png">
+    <animate attributeType="CSS" attributeName="opacity" dur="1.25s"
+    values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1"
+    calcMode="discrete" repeatCount="indefinite" />
+  </image>
+ <image x="0" y="0" width="148" height="148" xlink:href="я24.png">
+    <animate attributeType="CSS" attributeName="opacity" dur="1.25s"
+    values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1"
+    calcMode="discrete" repeatCount="indefinite" />
+  </image>
+ <image x="0" y="0" width="148" height="148" xlink:href="я25.png">
+    <animate attributeType="CSS" attributeName="opacity" dur="1.25s"
+    values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1"
+    calcMode="discrete" repeatCount="indefinite" />
+  </image>
+  <image x="0" y="0" width="148" height="148" xlink:href="я26.png">
+    <animate attributeType="CSS" attributeName="opacity" dur="1.25s"
+    values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1"
+    calcMode="discrete" repeatCount="indefinite" />
+  </image>
+  <image x="0" y="0" width="148" height="148" xlink:href="я27.png">
+    <animate attributeType="CSS" attributeName="opacity" dur="1.25s"
+    values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1"
+    calcMode="discrete" repeatCount="indefinite" />
+  </image>
+  <image x="0" y="0" width="148" height="148" xlink:href="я28.png">
+    <animate attributeType="CSS" attributeName="opacity" dur="1.25s"
+    values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1"
+    calcMode="discrete" repeatCount="indefinite" />
+  </image>
+  <image x="0" y="0" width="148" height="148" xlink:href="я29.png">
+    <animate attributeType="CSS" attributeName="opacity" dur="1.25s"
+    values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1"
+    calcMode="discrete" repeatCount="indefinite" />
+  </image>
+  <image x="0" y="0" width="148" height="148" xlink:href="я30.png">
+    <animate attributeType="CSS" attributeName="opacity" dur="1.25s"
+    values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1"
+    calcMode="discrete" repeatCount="indefinite" />
+  </image>
+  <image x="0" y="0" width="148" height="148" xlink:href="я31.png">
+    <animate attributeType="CSS" attributeName="opacity" dur="1.25s"
+    values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1"
+    calcMode="discrete" repeatCount="indefinite" />
+  </image>
+     
+</svg>
